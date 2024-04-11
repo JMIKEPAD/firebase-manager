@@ -1,0 +1,10 @@
+<div class="container-json-upload">
+  <textarea name="jsonView" id="jsonView" cols="70" rows="40"></textarea>
+  <div class="dropzone">
+    <input type="file" #fileDropRef id="fileDropRef" accept=".json" (change)="fileBrowseHandler($event)">
+    <img src="" alt="">
+    <h3>Drag and drop file here</h3>
+    <h3>or</h3>
+    <label for="fileDropRef">Browse for file</label>
+  </div>
+</div>
